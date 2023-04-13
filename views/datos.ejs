@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<style>
+  
+  body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  .title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .subtitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  #data li {
+    margin-bottom: 10px;
+  }
+  
+  
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .list-group-item {
+    border-color: #dee2e6;
+    background-color: #fff;
+  }
+  
+  .list-group {
+    border-radius: 0;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    margin-bottom: 10px;
+  }
+</style>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Matrícula de cursos</h1>
+      <p class="subtitle">Datos:</p>
+      <ul id="data" class="list-group">
+        <li class="list-group-item">Curso seleccionado: <%= curso %></li>
+        <li class="list-group-item">Niveles: <%= nivel %></li>
+        <li class="list-group-item">Costo del curso: <%= costo %></li>
+        <li class="list-group-item">Método de pago: <%= metodo %></li>
+      </ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
